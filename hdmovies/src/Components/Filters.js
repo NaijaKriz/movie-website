@@ -1,6 +1,6 @@
 import { Listbox, Transition } from "@headlessui/react";
 import React, { useState, Fragment } from "react";
-import { Categories } from "../Data/CategoriesData";
+import { CategoriesData } from "../Data/CategoriesData";
 import { FaAngleDown, FaCheck } from "react-icons/fa";
 
 const YearData = [
@@ -39,7 +39,7 @@ function Filters() {
     {
       value: category,
       onChange: setCategory,
-      items: Categories,
+      items: CategoriesData,
     },
     {
       value: year,

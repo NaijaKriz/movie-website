@@ -21,7 +21,7 @@ const Rows = (movie, i, admin) => {
           />
         </div>
       </td>
-      <td className={`${Text}`}>{movie.name}</td>
+      <td className={`${Text} truncate`}>{movie.name}</td>
       <td className={`${Text}`}>{movie.category}</td>
       <td className={`${Text}`}>{movie.language}</td>
       <td className={`${Text}`}>{movie.year}</td>
